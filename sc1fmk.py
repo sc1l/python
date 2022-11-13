@@ -9,7 +9,7 @@ if os.path.isdir("sc1fmk") == False :
     os.mkdir("sc1fmk")
 #make sc1fmk
 
-url = input("makebomb or hack or filebomb or Luck : ")
+url = input("makebomb or hack or filebomb or Luck or stopwatch or class or sc1fmk : ")
 #make input py file
 
 reset = open("sc1fmk/"+url+"from github.py", 'w')
