@@ -39,5 +39,5 @@ yn = input("you want to view source? (Y/N)")
 if yn == "y" :
     print(raw)
     else :
-        if yn == "Y"
+        if yn == "Y" :
             print(raw)
