@@ -38,6 +38,5 @@ print("downloaded")
 yn = input("you want to view source? (Y/N)")
 if yn == "y" :
     print(raw)
-    else :
-        if yn == "Y" :
-            print(raw)
+if yn == "Y" :
+    print(raw)
