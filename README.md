@@ -5,3 +5,5 @@ have fun!
 # Language
 oops i forgot
 THIS IS KOREAN
+# web
+sc1lpython.io
