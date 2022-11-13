@@ -6,4 +6,4 @@ have fun!
 oops i forgot
 THIS IS KOREAN
 # web
-sc1lpython.io
+<a href=https://sc1lpython.io>sc1lpython.io</a>
