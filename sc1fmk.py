@@ -1,6 +1,6 @@
 #TMI : 파일 다시만듬
 
-print("need bs4 and os")
+print("need bs4 and os and urllib.request")
 from bs4 import BeautifulSoup
 import os
 from urllib.request import urlopen
@@ -17,7 +17,7 @@ select = BeautifulSoup(gitlink.read(), "html.parser")
 url = input(select)
 #make input py file
 
-reset = open("sc1fmk/"+url+"from github.py", 'w')
+reset = open("sc1fmk/"+url+" from github.py", 'w')
 reset.write("")
 #reset .py file
 
