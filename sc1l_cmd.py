@@ -8,7 +8,7 @@ def convertTime(seconds):
     return "%d:%02d:%02d" % (hours, minutes, seconds) 
 # converting seconds to hh:mm:ss 
 
-print("made by sc1lwlral. for only non-commercial use")
+print("made by sc1lwlral. for only non-commercial use.")
 while True :
     text = input(">> ")
     
@@ -22,7 +22,7 @@ while True :
             fild = input("folder name >> ")
             os.mkdir(fild)
         except FileNotFoundError :
-            print("folder failed to make")
+            print("folder failed to make (FileNotFoundError)")
     elif text == 'bs' :
         battery = psutil.sensors_battery()
         print("Battery percentage : ", battery.percent,"%") 
