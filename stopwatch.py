@@ -7,7 +7,7 @@ h = 00
 
 while True :
     nano += 1
-    if nano => 100 :
+    if nano >= 100 :
         nano = 0
         s += 1
     if s >= 60 :
